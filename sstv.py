@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.io import wavfile
-from Pillow import Image
+from PIL import Image
 
 def decode_pd120(wav_file, output_image):
     # Load the audio file
